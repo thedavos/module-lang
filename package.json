@@ -1,0 +1,33 @@
+{
+  "name": "newlang",
+  "version": "0.1.0",
+  "description": "Traductor de idioma",
+  "main": "dist/src/newlang.js",
+  "scripts": {
+    "build": "babel src/newlang.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidvd45/newlang.git"
+  },
+  "keywords": [
+    "platzi",
+    "js",
+    "fundamentos",
+    "javascript",
+    "idioma",
+    "newlang"
+  ],
+  "author": "davidvs <davidvargas.d45@gmail.com> (git@github.com:Davidvd45/platzim.git)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davidvd45/newlang/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
