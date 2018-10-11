@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = newlang;
-function newlang(str) {
+exports.default = lang;
+function lang(str) {
   var translation = str;
 
   /* Si la palabra original es un palíndromo ninguna

@@ -1,10 +1,10 @@
 {
-  "name": "newlang",
+  "name": "module-lang",
   "version": "0.1.0",
   "description": "Traductor de idioma",
-  "main": "dist/src/newlang.js",
+  "main": "dist/src/lang.js",
   "scripts": {
-    "build": "babel src/newlang.js -d dist",
+    "build": "babel src/lang.js -d dist",
     "test": "mocha"
   },
   "repository": {

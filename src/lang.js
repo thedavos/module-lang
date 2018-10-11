@@ -1,4 +1,4 @@
-export default function newlang(str) {
+export default function lang(str) {
     let translation = str
   
     /* Si la palabra original es un palíndromo ninguna
